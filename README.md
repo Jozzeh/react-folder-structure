@@ -85,7 +85,8 @@ Where as previous packages are React & React Native compatible...
 
 ## Testing
 Unit testing in React & React Native is commonly done with jest.  
-In the __tests__ folder, the structure of the src folder is largely copied. It makes finding a unit test for a component very easy.  
+In each component/reducer/... folder is the test of that component/reducer/...  
+It makes finding a unit test for a component very easy.  
 Depending on the need for more types of testing, other libraries can be added... Some working together with Jest.  
 
 ## Mocking  
