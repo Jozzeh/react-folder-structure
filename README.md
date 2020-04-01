@@ -29,7 +29,11 @@ Example: Button, List, input element, ...
 Block : A Block is a set of elements. These blocks can be reused and if they are, the events should be passed on to the parent element. Otherwise, events can be handled here.  
 Example: A form with some inputs
 
-Page : The biggest component is a single page. It is a set of blocks.    
+Page : The biggest component is a single page. It is a set of blocks.  
+
+------  
+
+If a component library is used... Then the Page, Block & Element pattern could become a page-block pattern (because the element side is covered by the component library).  
 
 ## React & RN NPM Packages  
 - redux 
