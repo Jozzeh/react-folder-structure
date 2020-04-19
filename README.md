@@ -23,7 +23,7 @@ The BEM methodology has 3 layers... Block - Element - Modifier.
 The component structure also has 3 layers... Page - Block - Element.  
 PBE pattern doesn't sound as snappy as Atomic or BEM but I think it is quite easy to understand.  
 
-Element : An element is the smallest component. The components are to be reused as much as possible and events should be fired by passed on to the parent element.  
+Element : An element is the smallest component. The components are to be reused as much as possible and events should be passed on to the parent element.  
 Example: Button, List, input element, ...   
  
 Block : A Block is a set of elements. These blocks can be reused and if they are, the events should be passed on to the parent element. Otherwise, events can be handled here.  
